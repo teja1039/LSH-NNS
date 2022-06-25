@@ -16,10 +16,10 @@ likely to contain its nearest neighbour with high probability.</p>
     <li>LSH can be used for range queries, i.e., to find all the neighbours of q that are within a pre-specified distance.</li>
   </ul>
 </p>
-<p>To Implement:</p>
+<p>Implemented:</p>
 <ul>
-  <li>Generate the set X ⊂ {0,1} d with n points, i.e., X consists of n binary vectors in d-dimensions.</li>
-  <li>Determine a suitable family of hash functions H.</li>
-  <li>Partition X based on these hashing bins.</li>
-  <li>Implement a nearest neighbour search for any arbitrary point q ∈ {0,1} d by choosing a hash function h from H uniformly at random, and returning the nearest neighbor of q from the bin it is mapped to.</li>
+  <li>Generated the set X ⊂ {0,1}<sup>d</sup> with n points, i.e., X consists of n binary vectors in d-dimensions.</li>
+  <li>Determined a suitable family of hash functions H.</li>
+  <li>Partitiond X based on these hashing bins.</li>
+  <li>Implemented a nearest neighbour search for an arbitrary point q ∈ {0,1}<sup>d</sup> by choosing a hash function h from H uniformly at random, and returned the nearest neighbor of q from the bin it was mapped to.</li>
 </ul>
