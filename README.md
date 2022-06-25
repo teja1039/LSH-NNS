@@ -16,7 +16,7 @@ likely to contain its nearest neighbour with high probability.</p>
     <li>LSH can be used for range queries, i.e., to find all the neighbours of q that are within a pre-specified distance.</li>
   </ul>
 </p>
-<p>Implemented:</p>
+<p><b>Implemented:</b></p>
 <ul>
   <li>Generated the set X ⊂ {0,1}<sup>d</sup> with n points, i.e., X consists of n binary vectors in d-dimensions.</li>
   <li>Determined a suitable family of hash functions H.</li>
