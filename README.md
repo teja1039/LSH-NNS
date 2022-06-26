@@ -23,7 +23,7 @@ likely to contain its nearest neighbour with high probability.</p>
   <li>Partitiond X based on these hashing bins.</li>
   <li>Implemented a nearest neighbour search for an arbitrary point q ∈ {0,1}<sup>d</sup> by choosing a hash function h from H uniformly at random, and returned the nearest neighbor of q from the bin it was mapped to.</li>
 </ul>
-### Team Members:
+<h3>Team Members:</h3>
 <ul>
   <li>Krishna Teja Chilukuri</li>
   <li>Nikhil Kongara</li>
